@@ -70,7 +70,7 @@ def recognize_main():
 
 def gpt_response(data):
     response = client.chat.completions.create(
-        model="gpt-3.5",
+        model="gpt-4",
         messages=[
             {"role": "system", "content": "You are a voice assistant that gives short and concise answers to my questions."},
             {"role": "user", "content": data}
