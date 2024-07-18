@@ -9,7 +9,6 @@ import dotenv
 
 dotenv.load_dotenv()
 
-
 r = sr.Recognizer()
 source = sr.Microphone()
 listener_thread = None
